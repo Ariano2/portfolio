@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Gosain — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ── Noise overlay ──────────────────────────────────────────────────────── -->
+<div class="noise"></div>
+
+<!-- ── Navbar ─────────────────────────────────────────────────────────────── -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">AG</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<!-- ── Hero ───────────────────────────────────────────────────────────────── -->
+<section class="hero" id="hero">
+  <div class="hero-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="hero-content reveal">
+    <p class="hero-greeting">&gt; Hello, world. I'm</p>
+    <h1 class="hero-name">Aryan Gosain</h1>
+    <div class="hero-line"></div>
+    <h2 class="hero-tagline">Crafting real‑time, AI‑driven web experiences for modern users</h2>
+    <p class="hero-typing">
+      <span class="typing-prefix">// currently:</span>
+      <span id="typingText"></span><span class="cursor">█</span>
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="https://github.com/Ariano2" target="_blank" class="btn btn-ghost">GitHub ↗</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- ── Stats ──────────────────────────────────────────────────────────────── -->
+<section class="stats-bar">
+  <div class="stats-inner"><div class="stat-item"><span class="stat-num" data-target="2">2</span><span class="stat-label">Projects Built</span></div>
+<div class="stat-item"><span class="stat-num" data-target="24">24</span><span class="stat-label">Technologies</span></div>
+<div class="stat-item"><span class="stat-num" data-target="1">1</span><span class="stat-label">Roles / Internships</span></div></div>
+</section>
+
+<!-- ── About ──────────────────────────────────────────────────────────────── -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">01 / About</span>
+      <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>Aryan Gosain is a B.Tech Computer Science graduate from Jaypee Institute of Information Technology with a strong foundation in software engineering. He builds full‑stack web applications using JavaScript, React, Node.js, and Python, delivering real‑time features and AI‑enhanced user experiences. Aryan is seeking a Software Development Engineer role where he can contribute to scalable products and grow alongside innovative teams.</p>
+        <div class="about-links">
+          <a href="https://github.com/Ariano2" target="_blank" class="about-link">⌥ GitHub</a>
+          <a href="#" target="_blank" class="about-link">in LinkedIn</a>
+          <a href="mailto:aryanramjasian@gmail.com" class="about-link">✉ Email</a>
+        </div>
+      </div>
+      <div class="about-terminal">
+        <div class="terminal-bar">
+          <span class="t-dot t-red"></span>
+          <span class="t-dot t-yellow"></span>
+          <span class="t-dot t-green"></span>
+          <span class="t-title">about.json</span>
+        </div>
+        <div class="terminal-body" id="terminalBody"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Skills ─────────────────────────────────────────────────────────────── -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">02 / Skills</span>
+      <h2 class="section-title">Tech Stack</h2>
+    </div>
+    <div class="reveal">
+      <div class="skills-chips">
+<span class="skill-chip">JavaScript (ES6+)</span>
+<span class="skill-chip">Python</span>
+<span class="skill-chip">HTML5</span>
+<span class="skill-chip">CSS3</span>
+<span class="skill-chip">SQL</span>
+<span class="skill-chip">React.js</span>
+<span class="skill-chip">Redux</span>
+<span class="skill-chip">Tailwind CSS</span>
+<span class="skill-chip">Bootstrap</span>
+<span class="skill-chip">Node.js</span>
+<span class="skill-chip">Express.js</span>
+<span class="skill-chip">Socket.io</span>
+<span class="skill-chip">Git</span>
+<span class="skill-chip">GitHub</span>
+<span class="skill-chip">Firebase</span>
+<span class="skill-chip">Postman</span>
+<span class="skill-chip">npm</span>
+<span class="skill-chip">Netlify</span>
+<span class="skill-chip">VS Code</span>
+<span class="skill-chip">Full-Stack Development</span>
+<span class="skill-chip">API Design</span>
+<span class="skill-chip">Database Management</span>
+<span class="skill-chip">Security Best Practices</span>
+<span class="skill-chip">Agile Development</span>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Projects ───────────────────────────────────────────────────────────── -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">03 / Projects</span>
+      <h2 class="section-title">Selected Work</h2>
+    </div>
+    <div class="projects-grid">
+      
+<div class="project-card">
+  <div class="project-header">
+    <h3 class="project-name">Dev2inder</h3>
+    
+  </div>
+  <p class="project-desc">Enabled 30% faster match discovery and supported 10k+ concurrent chat sessions with Socket.io.</p>
+  <div class="project-tags"><span class="tech-tag">MERN Stack</span><span class="tech-tag">WebSockets</span><span class="tech-tag">REST APIs</span></div>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <h3 class="project-name">AI-Flix</h3>
+    
+  </div>
+  <p class="project-desc">Boosted user engagement by 25% through AI‑powered search and personalized movie recommendations.</p>
+  <div class="project-tags"><span class="tech-tag">React</span><span class="tech-tag">Redux</span><span class="tech-tag">Firebase</span><span class="tech-tag">APIs</span></div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Experience ─────────────────────────────────────────────────────────── -->
+<section class="section section-alt" id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">04 / Experience</span>
+      <h2 class="section-title">Where I've Worked</h2>
+    </div>
+    <div class="timeline">
+      
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <div class="timeline-header">
+      <div>
+        <h3 class="exp-title">Software Development Intern</h3>
+        <p class="exp-company">Indian Computer Emergency Response Team (CERT-IN) · New Delhi, India</p>
+      </div>
+      <span class="exp-dates">June 2 – July 14, 2025</span>
+    </div>
+    <ul class="exp-bullets"><li>Developed a comprehensive cybersecurity-focused MERN stack (MongoDB, Express.js, React, Node.js) web application with integrated RBAC (Role-Based Access Control) for secure user management and authentication.</li>
+<li>Designed and implemented RESTful APIs to handle user authentication, authorization, and data validation across multiple application modules.</li>
+<li>Built and secured key modules including an e-commerce store with payment processing, article and newsletter publishing system with rich text editor, and a workshop/event organization portal with registration management.</li>
+<li>Implemented security best practices including JWT token authentication, input sanitization, SQL injection prevention, and XSS protection measures.</li>
+<li>Collaborated with cybersecurity professionals to identify and address potential vulnerabilities in the application architecture.</li></ul>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Education ──────────────────────────────────────────────────────────── -->
+<section class="section" id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">05 / Education</span>
+      <h2 class="section-title">Academic Background</h2>
+    </div>
+    <div class="edu-grid reveal">
+      
+<div class="edu-card">
+  <div class="edu-header">
+    <div>
+      <h3 class="edu-degree">B.Tech in Computer Science and Engineering</h3>
+      <p class="edu-inst">Jaypee Institute of Information Technology</p>
+    </div>
+    <div class="edu-meta">
+      <span class="edu-dates">2022 – 2026</span>
+      
+    </div>
+  </div>
+</div>
+
+<div class="edu-card">
+  <div class="edu-header">
+    <div>
+      <h3 class="edu-degree">Senior Secondary School Certificate</h3>
+      <p class="edu-inst">Ramjas International School</p>
+    </div>
+    <div class="edu-meta">
+      <span class="edu-dates">June 2022</span>
+      
+    </div>
+  </div>
+</div>
+
+<div class="edu-card">
+  <div class="edu-header">
+    <div>
+      <h3 class="edu-degree">Secondary School Certificate</h3>
+      <p class="edu-inst">Ramjas International School</p>
+    </div>
+    <div class="edu-meta">
+      <span class="edu-dates">May 2020</span>
+      
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact ────────────────────────────────────────────────────────────── -->
+<section class="section section-contact" id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">06 / Contact</span>
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+    <div class="contact-box reveal">
+      <p class="contact-sub">Open to opportunities, collaborations &amp; interesting projects.</p>
+      <div class="contact-links">
+        <a href="mailto:aryanramjasian@gmail.com" class="contact-link">✉ aryanramjasian@gmail.com</a>
+<a href="https://github.com/Ariano2" target="_blank" class="contact-link">⌥ Ariano2</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <p>© 2025 <span class="footer-name">Aryan Gosain</span> · Built with PrepSense AI</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
